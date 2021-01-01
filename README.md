@@ -24,3 +24,5 @@ E depois:
 ## TODO
 
 - Modificar os `export.modules` para `export default` através do Babel
+- Revisar e refatorar codigo
+- Adicionar Prettier
