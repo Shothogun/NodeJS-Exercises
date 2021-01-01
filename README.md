@@ -21,3 +21,6 @@ E depois:
 
 ```$ node src/index.js```
 
+## TODO
+
+- Modificar os `export.modules` para `export default` através do Babel

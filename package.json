@@ -1,13 +1,23 @@
 {
   "name": "NodeJS-Exercises",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "repository": "https://github.com/Shothogun/NodeJS-Exercises.git",
   "author": "Otho Teixeira <otho.tk@hotmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon"
+  },
   "dependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
     "fs": "^0.0.1-security",
     "http": "^0.0.1-security",
     "puppeteer": "^5.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
