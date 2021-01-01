@@ -1,2 +1,9 @@
 # NodeJS-Exercises
-Some NodeJS codes to practice web dev and explore yarn libs
+
+- Para os códigos desenvolvidos, foi utilizado o node na versão 10.18. 
+  Recomenda-se o uso do nvm para uma execução apropriada do projeto.
+## Teste 1
+
+
+
+

@@ -1,0 +1,13 @@
+{
+  "name": "NodeJS-Exercises",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Shothogun/NodeJS-Exercises.git",
+  "author": "Otho Teixeira <otho.tk@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "puppeteer": "^5.5.0"
+  }
+}
