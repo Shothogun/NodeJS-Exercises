@@ -2339,6 +2339,11 @@ path-is-absolute@^1.0.0:
   resolved "https://registry.yarnpkg.com/path-is-absolute/-/path-is-absolute-1.0.1.tgz#174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f"
   integrity sha1-F0uSaHNVNP+8es5r9TpanhtcX18=
 
+pdf.js-extract@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/pdf.js-extract/-/pdf.js-extract-0.1.5.tgz#0e8652c1aefcef08e91a9f1b3c691ea43d219bf7"
+  integrity sha512-ZnudGaH5Q41FMeGKgOOCMO6Ybluxc87lB0shYYx0FliKHQLSs7YrXx6ZOu7oC+ZePyMQnTOtBK65dW0aawmB/Q==
+
 pend@~1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/pend/-/pend-1.2.0.tgz#7a57eb550a6783f9115331fcf4663d5c8e007a50"
