@@ -105,3 +105,4 @@ dist
 
 .vscode/
 *.pdf
+*.csv
