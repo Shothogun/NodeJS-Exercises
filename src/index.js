@@ -11,7 +11,7 @@ const webScraper = require('./scripts/webScraper');
 const generateData = require('./scripts/generateData');
 
 const main = async () => {
-  //webScraper();
+  webScraper();
   generateData();
 }
 

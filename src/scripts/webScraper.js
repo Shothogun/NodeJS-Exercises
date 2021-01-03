@@ -28,7 +28,7 @@ const webScraper = async () => {
 
   // Acesso ao href do botão do download do pdf
   const download_button = await page.$x("//a[contains(text(), ' Visualizar anexo')]/@href");
-  
+
   if (download_button.length > 0) {
     const propertyHandle = await download_button[0].getProperty('value');
 
@@ -42,13 +42,14 @@ const webScraper = async () => {
     // Criaçao do arquivo e requisicao
     // GET de download do pdf.
     const file = fs.createWriteStream(fileName);
-    const request = http.get("http://www.ans.gov.br"+filePath, function(response) {
+    const request = http.get("http://www.ans.gov.br" + filePath, function (response) {
       response.pipe(file);
     });
   }
-
   await browser.close();
-  return;
+
 };
+
+webScraper();
 
 module.exports = webScraper;

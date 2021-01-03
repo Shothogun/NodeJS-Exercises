@@ -928,6 +928,11 @@ abbrev@1:
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
   integrity sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==
 
+adm-zip@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/adm-zip/-/adm-zip-0.5.1.tgz#32e51c6fe88370f4389b424567b78a345e79ebc6"
+  integrity sha512-a5ABmIFUJ9OxHV5zrXM9Q41JzpRIflFtdgpL4UQM9DsTHHxQzPRaeyAdnMW7kxL0NRWm/NHafJdj6pO+ty7L2g==
+
 agent-base@5:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/agent-base/-/agent-base-5.1.1.tgz#e8fb3f242959db44d63be665db7a8e739537a32c"
