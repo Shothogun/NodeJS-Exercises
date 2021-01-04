@@ -1,6 +1,5 @@
 # NodeJS-Exercises
-![Hex.pm](https://img.shields.io/badge/node-%3E%3D%2010.18-blue?logo=Node.js&link=https://nodejs.org/en/)
-
+![Hex.pm](https://img.shields.io/badge/node-%3E%3D%2010.18-blue?logo=Node.js&link=https://nodejs.org/en/) ![PG.pm](https://img.shields.io/badge/PG-10.15-blue?logo=PostgreSQL&link=https://nodejs.org/en/)
 ## Versão do Node
   Para os códigos desenvolvidos, foi utilizado o node na versão `10.18.` 
   Recomenda-se o uso do nvm para uma execução apropriada do projeto nessa versão.
@@ -47,7 +46,8 @@ Para esse teste, foi utilizado para o load os arquivos provenientes dos links
 http://ftp.dadosabertos.ans.gov.br/FTP/PDA/demonstracoes_contabeis/(dados de 2019 e 2020) e 
  http://www.ans.gov.br/externo/site_novo/informacoes_avaliacoes_oper/lista_cadop.asp.
 
-O script ".sql" criado foi escrito para os SGBDs Postgres, realizando:
+O script ".sql" criado foi escrito para os SGBDs `Postgres 10.15` no 
+`Ubuntu 18.04 LTS`, realizando:
 
 - Queries de load dos dados do arquivo .csv;
 - Query analíticas que buscam:
@@ -72,6 +72,10 @@ arquivos `csv` a serem utilizados e executando para cada um:
 
 Assim no script `.sql` ao invés de `vlSaldoFfinal VARCHAR(15)`, isso seria substituído 
 por `vlSaldoFfinal DECIMAL(2)`.
+
+Para a comparação de seu valor nas *queries*, foi realizado a temporária 
+substituição da ',' por '.' durante a consulta `querie` especificada acima, convertendo 
+para um valor decimal de precisão de 2 digitos decimais.
 
 **============= Obs 2 =============**
 
