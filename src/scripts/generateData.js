@@ -100,13 +100,28 @@ const generateData = async () => {
 
 
       // .csv quadro 31
+      // A lib detectou algumas
+      // frases compostas como frases de linhas distinas.
+      // Para contornar isso, para cada string nao numerica
+      // eh concatenada ao valor de uma coluna, formando assim
+      // uma frase.
+      // Se eh um numero, basta adicionar ela na coluna do codigo e 
+      // separar com ;
       let board31Stream = '';
+      // Primeiras 2 palavras sao as colunas
+      // board31Data[1] eh ' '
       board31Stream = board31Data[0] + ';' + board31Data[2];
       for (var i = 3; i < board31Data.length; i++) {
+        // Se o dado lido eh um numero
+        // Cria uma linha, adiciona o codigo(numero),
+        // insere separador ';'
         if (board31Data[i] >= '0' && board31Data[i] <= '9') {
           board31Stream += '\n' + board31Data[i] + ';'
           i++;
         }
+
+        // Se nao eh numero, eh a descricao.
+        // Concatena a frase ate acabar(encontrar proximo codigo)
         else {
           board31Stream += board31Data[i];
         }
