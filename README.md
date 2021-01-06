@@ -84,7 +84,4 @@ linha titulo do arquivo `Relaçãoo de Operadoras Ativas ANS`.
 
 ## TODO
 
-- Adicionar Prettier
-- Revisar e refatorar codigo
 - Adaptar nome dos arquivos csv compatados para o padrao latino(ISO-8859-1)
-- Modificar os `export.modules` para `export default` através do Babel

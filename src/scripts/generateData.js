@@ -26,7 +26,7 @@ const generateData = async () => {
   };
 
   // Parsing dos dados a serem extraidos
-  let [csvFile1Name,csvFile2Name,csvFile3Name] = await new Promise(async (resolve, reject) => {
+  let [csvFile1Name, csvFile2Name, csvFile3Name] = await new Promise(async (resolve, reject) => {
     pdfExtract.extract(pdfFilePath, options, (err, data) => {
       if (err) return console.log(err);
 
